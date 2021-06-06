@@ -2,7 +2,7 @@ pipeline {
 
   environment {
 
-    registry = "sankethshinde/devops24thaprilproject"
+    registry = "sekarfeb/docker-jenkins-demo"
 
     registryCredential = 'docker-creds'
 
