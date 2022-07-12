@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/sekarfeb/Docker-Jenkins-Demo'
+        git 'https://github.com/sekarfeb/Docker-Jenkins-Demo'     //Cloning from git
       }
     }
 
