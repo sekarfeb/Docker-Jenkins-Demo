@@ -1,5 +1,4 @@
 pipeline {
-
   environment {
 
     registry = "sekarfeb/docker-jenkins-demo"
