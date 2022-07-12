@@ -4,7 +4,7 @@ pipeline {
 
     registry = "sekarfeb/docker-jenkins-demo"
 
-    registryCredential = 'docker-creds'
+    registryCredential = 'sekargit'
 
     dockerImage = ''
 
