@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    registry = "sekarfeb/docker-jenkins-demo"
-    registryCredential = 'docker_cred'
+    registry = "sekarfeb/jenkins-repo"  //DOcker Public Repository
+    registryCredential = 'docker_cred'   //Docker credetnial stored in the Mangae credentials
     dockerImage = ''
   }
   agent any
